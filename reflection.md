@@ -1,4 +1,4 @@
-[http://malamin92.github.io/](My Site.)
+![http://malamin92.github.io/](My Site.)
 
 ####What did you learn about CSS padding, borders, and margin by doing this challenge?
 
