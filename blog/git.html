@@ -1,17 +1,36 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Version Control</title>
   <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="your-stylesheet-link-here.css">
+  <title>Mohammad Amin</title>
+  <link rel="stylesheet" href="../stylesheets/default.css">
+  <link rel="stylesheet" href="../stylesheets/blog.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,500' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
 </head>
+<body>
+  <header>
+    <nav>
+      <ul class = "nav-links">
+        <li><a class="logo" href="index.html">Mohammad Amin</a></li>
+        <li><a href="#">About Me</a></li> |
+        <li><a href="blog/index.html">Blog</a></li> |
+        <li><a href="#">Projects</a></li> |
+        <li><a href="#">Resume</a></li> |
+        <li><a href="#">Contact</a></li>
 
-<main>
-  <h1>Version Control</h1>
-  <h2>Git and GitHub</h2>
-  <h4>October 21, 2015</h4>
+      </ul>
+    </nav>
+  </header>
 
-  <section>
-    <p>
+
+  <section class="blog-post">
+      <h1>Git and GitHub</h1>
+      <h3>Version Control</h3>
+      <h5>October 21, 2015</h5>
+
+      <div class="blog-text">
+        <p>
         In the programming world, version control is a life saver. It is a way of keeping track of every change that has been made 
         at different stages of your programs life cycle. It can serve as a fall back if you've made a horrible mistake in your code 
         and need to track back to a point when your program was functional and made sense. When working in teams, it is great way 
@@ -19,23 +38,35 @@
         compared to checkpoints in a video game, if you make a mistake, you can just go back to the checkpoint instead having to 
         start all over. This is really useful, it can be especially useful when someone is new to programming and are prone to 
         making more mistakes. 
-    </p>
-    <p>
+       </p>
+
+        <p>
         What git does is keep track of your changes in the code you've written. These are points in your code where you have made 
         a <b>commit</b>, in other words take a snapshot of the current state of your code. Anytime you make a <b>commit</b>, it is 
         logged in the gits history via a <b>HEAD^</b>. Basically, the <b>HEAD^</b> can be used along with a number to refer to a 
         certain <b>HEAD</b>, aka the point you want to go back to. This is neat because it means tracking back to any point in your 
         gits histroy is extremely simple. 
-    </p>
-    <p>
+        </p>
+
+        <p>
         GitHub is great for all your git storing needs. Using GitHub you can create a <b>repository</b> for each of your projects. 
         Whenever you desire, you can <b>push</b> the commits you've made to that repo. GitHub also allows for others to see your 
         repositories and clone them which allows them to work on your code. If someone feels like they've made a good contribution, 
         they can send you a <b>pull request</b> which is a request for you to <b>merge</b> their contribution to your project. If you 
         chose to accept their pull request, those additions will be made to your repository. GitHub is great active programming community 
         and a great way to get out and contribute to open source projects.
-    </p>
-
-      <!-- copy and paste as many sections as you want to add paragraphs -->
+        </p>
+      </div>
   </section>
-</main>
+
+<footer>
+    <div class="footer-links">
+      <p><a href="https://twitter.com/betterxhalf">Twitter</a> |
+      <a href="https://www.facebook.com/singmo">Facebook</a> |
+      <a href="https://www.linkedin.com/pub/mohammad-amin/a8/485/813">LinkedIn</a> | 
+      <a href="https://github.com/malamin92">GitHub</a></p>
+    </div>
+    <p>©<span class="copyright">2015 Mohammad Amin</span></p>
+  </footer>
+</body>
+</html>
