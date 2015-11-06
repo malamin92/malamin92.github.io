@@ -14,6 +14,10 @@ a:hover{
 	text-decoration: underline;
 }
 
+a:visited {
+	text-decoration: line-through;
+}
+
 header {
 	height: 10%;
 	width: 100%;
