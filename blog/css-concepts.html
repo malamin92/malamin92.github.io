@@ -6,6 +6,7 @@
   <title>Mohammad Amin</title>
   <link rel="stylesheet" href="../stylesheets/default.css">
   <link rel="stylesheet" href="../stylesheets/blog.css">
+  <link rel="stylesheet" href="stylesheets/css-concepts.css">
   <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,500' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
 </head>
@@ -35,10 +36,10 @@
 				properties of the box model allows for adjustment of the spacing of the content within the HTML body. It determines how the content will ultimately sit
 				on that page in relation to the other elements that surround it. I think the best way to get a sense of the box model is to see the visual:  </p>
 
-				<div class="box-model">
-				<img src="imgs/box-model.gif" alt="Box Model" class="box-model-visual">
-				<figcaption>The Box-Model</figcaption>
-				</div>
+				<figure>
+					<img src="imgs/box-model.gif" alt="Box Model" class="box-model-visual">
+					<figcaption>The Box-Model</figcaption>
+				</figure>
 
 				<p>As you can see from the image above, the 'content' of an element sits in the middle of the element. Then going from the inside out, there is the
 				padding -> border -> margin. When trying to remember which spacing each refers to, I try to think of them in that order.</p>
@@ -98,45 +99,3 @@
 	</footer>
 </body>
 </html>
-
-<style>
-
-	.pad p {
-		padding: 30px 30px;
-		border: 2px solid green;
-	}
-
-	.no-pad p{
-		border: 2px solid green;
-
-	}
-
-	.thick-border p{
-		border: 8px solid green;
-		padding: 30px 30px;
-	}
-
-	.margin-one p{
-		padding: 30px 30px;
-		border: 2px solid green;
-		margin-bottom: 50px;
-	}
-	
-	.margin-two p{
-		padding: 30px 30px;
-		border: 2px solid green;
-	}
-
-
-	.margin-three p{
-		padding: 30px 30px;
-		border: 2px solid green;
-		margin-bottom: -10px;
-	}
-	
-	.margin-four p{
-		padding: 30px 30px;
-		border: 2px solid green;
-	}
-
-</style>
