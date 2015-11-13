@@ -30,82 +30,82 @@
 
       <div class="blog-text">
         <p>
-          In Ruby, two common ways to store information about a certain set of data are Arrays and Hashes. These <br>
-          are both indexed collections of data, meaning that when you want to pull a certain piece of information <br>
-          from the colections, you can refer to the data using the 'index' of the array or hash. The index is the <br>
-          'key', and the data that lies at that certain index is the 'value', creating a key and value pair for each <br>
-          piece of data. However, the way indexes of each system works are different. Therefore, when using each, <br>
-          one should think about the purpose of the data and how they will use it. Since we are talking about two <br>
+          In Ruby, two common ways to store information about a certain set of data are Arrays and Hashes. These 
+          are both indexed collections of data, meaning that when you want to pull a certain piece of information 
+          from the colections, you can refer to the data using the 'index' of the array or hash. The index is the 
+          'key', and the data that lies at that certain index is the 'value', creating a key and value pair for each 
+          piece of data. However, the way indexes of each system works are different. Therefore, when using each, 
+          one should think about the purpose of the data and how they will use it. Since we are talking about two 
           systems that do similar things, I will talk about them separately.
         </p>
           
         <p>
-          Arrays are one of the most common data structures used all accross the programming spectrum. As I explained <br>
-          before, it uses a key and value system to store information and retrieve it. You can create an empty array in <br>
+          Arrays are one of the most common data structures used all accross the programming spectrum. As I explained 
+          before, it uses a key and value system to store information and retrieve it. You can create an empty array in 
           Ruby using: <code> array_name = [] </code>, the brackets <code>'[]'</code> indicate that the variable is of the 
-          Array class, and is an array. <br>At this point you can store things in the array like this: <code> array_ name << 
-          'sample data' </code>, in this case I am storing a <br> string. The cool thing about arrays is that you can store 
-          any kind of data that you desire at any index. This <br> means that you can store a String object type in one index 
-          and a integer from Fixnum in another if you so <br> desire, making arrays very flexible and powerful. 
+          Array class, and is an array. At this point you can store things in the array like this: <code> array_ name << 
+          'sample data' </code>, in this case I am storing a  string. The cool thing about arrays is that you can store 
+          any kind of data that you desire at any index. This  means that you can store a String object type in one index 
+          and a integer from Fixnum in another if you so  desire, making arrays very flexible and powerful. 
         </p>
 
         <p>
-          Now that we know how to create an empty array, let's talk about creating an array that already has data <br> that 
-          is stored initially. To do this, you simply have to put the data you want to store in the array between <br>the brackets 
-          like this: <code>number_array = [1,2,3,4,5]</code>, note how each number is separated by a comma, this indicates<br>that 
+          Now that we know how to create an empty array, let's talk about creating an array that already has data  that 
+          is stored initially. To do this, you simply have to put the data you want to store in the array between the brackets 
+          like this: <code>number_array = [1,2,3,4,5]</code>, note how each number is separated by a comma, this indicatesthat 
           they are separate pieces of data. The created array will hold the data indicated in the variable declaration.
         </p>
 
         <p>
-          So now we know how to create an empty array, and a full one, but how do we actually refer to the data we are storing? <br>
-          In order to do this, let me show how a visual: <br> <br> <img src="imgs/array_index.gif" alt="Array Index"> <br> <br>
+          So now we know how to create an empty array, and a full one, but how do we actually refer to the data we are storing? 
+          In order to do this, let me show how a visual:  <br><br> <img src="imgs/array_index.gif" alt="Array Index">  <br><br> 
           This diagram shows how array indexing works. Think of each index in the array as a cell that holds the data. The indexes 
-          <br>all have a unique number that starts from 0 as the first index and ends at the size of the array - 1. This means <br>
+          all have a unique number that starts from 0 as the first index and ends at the size of the array - 1. This means 
           that if I have an array with 5 pieces of data, the first index would be 0 and the last index would be 4. <strong>This is 
-          very <br> important to remember in arrays. </strong> It easy to confuse the first element as being at index 1 and not 0,
-          so keep that in mind <br>whenever you work with arrays. Consequently, the last of index of the array is the size of the 
-          array - 1. <br>Now that you see how the index works, it is easy to retrieve a peice of data at a certain index. To do <br>
-          this, use the name of the array, and the index which you want to retrieve. For example if I had an array with 5 <br>
+          very  important to remember in arrays. </strong> It easy to confuse the first element as being at index 1 and not 0,
+          so keep that in mind whenever you work with arrays. Consequently, the last of index of the array is the size of the 
+          array - 1. Now that you see how the index works, it is easy to retrieve a peice of data at a certain index. To do 
+          this, use the name of the array, and the index which you want to retrieve. For example if I had an array with 5 
           elements like: <code>array = [one, two, three, four, five]</code>, to get the first element, use: <code>array[0]</code>, 
-          second element, use: <code>array[1]</code> <br>and so on. Using <code>array[0]</code> will return the value 'one', using
+          second element, use: <code>array[1]</code> and so on. Using <code>array[0]</code> will return the value 'one', using
           <code>array[1]</code> will return 'two', and the rest respectively.
         </p>
 
         <p>
-          Those are all the basics of arrays in ruby. In my opinion, the important thing to remember is to use the correct <br>
+          Those are all the basics of arrays in ruby. In my opinion, the important thing to remember is to use the correct 
           index when referring to an element. <strong> Always remember that the index starts at 0 and ends at the size of the 
-          array - 1.</strong> <br>Also, due their ordered nature, arrays are very easy to 'iterate', or go over each index, using 
+          array - 1.</strong> Also, due their ordered nature, arrays are very easy to 'iterate', or go over each index, using 
           a for loop or while loop.
         </p>
 
         <p>
-          Though hashes in Ruby work in a very similar to arrays, they are slightly different and unique in their own way. <br>Similar
-          to an array, hashes also have a 'key' and a 'value'. The following declares an empty hash in Ruby: <code> hash = {}</code>, <br>
-          an alternative is <code>hash = Hash.new</code>, they both do the same thing, create a new, empty hash called hash. However, <br>
-          unlike arrays, in order to store something in a hash, you must always indicate the 'key' at which you are <br>
-          storing the data. This is because hashes are not automatically indexed in order like arrays are. Due to their <br>
-          unique, fast and immutable nature, it is best practice to use Ruby symbols as keys when working with hashes, <br>
-          but Ruby allows you to use any type of object as a key. This: <code>hash[:example_key] = "example_value"</code> <br>
-          will create a new hash value 'example_value' at the key ':example_key'. Note how just like arrays, you use <br>
-          brackets, '[]', to indicate the key. Also note that you can create a hash with a default value that will <br>
+          Though hashes in Ruby work in a very similar to arrays, they are slightly different and unique in their own way. Similar
+          to an array, hashes also have a 'key' and a 'value'. The following declares an empty hash in Ruby: <code> hash = {}</code>, 
+          an alternative is <code>hash = Hash.new</code>, they both do the same thing, create a new, empty hash called hash. However, 
+          unlike arrays, in order to store something in a hash, you must always indicate the 'key' at which you are 
+          storing the data. This is because hashes are not automatically indexed in order like arrays are. Due to their 
+          unique, fast and immutable nature, it is best practice to use Ruby symbols as keys when working with hashes, 
+          but Ruby allows you to use any type of object as a key. This: <code>hash[:example_key] = "example_value"</code> 
+          will create a new hash value 'example_value' at the key ':example_key'. Note how just like arrays, you use 
+          brackets, '[]', to indicate the key. Also note that you can create a hash with a default value that will 
           automatically assign a default value to any key created without a value like: <code>hash = Hash.new("default_value")</code>.
         </p>
 
         <p>
-          Retrieval of hash data works just a tad bit differently than arrays, but just slightly. Let's see another diagram: <br><br>
-          <img src="imgs/hash.png" alt="Hash Diagram"> <br><br>
-          As you can see, all hashes have a key and a value as we discussed. So, folliwng the diagram, in order to retrieve <br>
-          the data stored at key 'a', use: <code>dict['a']</code>, this will return the value 'alpha'. The same goes for the rest of <br>
-          the data. Unlike arrays, it is much easier to make sense of the data at each key, because the key and value are paired <br>
-          accordingly. Imagine something like a dictionary, you can just store the definitions of a word at a key and <br>
-          easily retrieve that definition by using the key, a task much harder using an array. That is the basic gist of hashes <br>
+          Retrieval of hash data works just a tad bit differently than arrays, but just slightly. Let's see another diagram:
+          <br><br><img src="imgs/hash.png" alt="Hash Diagram"><br><br>
+          As you can see, all hashes have a key and a value as we discussed. So, folliwng the diagram, in order to retrieve 
+          the data stored at key 'a', use: <code>dict['a']</code>, this will return the value 'alpha'. The same goes for the rest of 
+          the data. Unlike arrays, it is much easier to make sense of the data at each key, because the key and value are paired 
+          accordingly. Imagine something like a dictionary, you can just store the definitions of a word at a key and 
+          easily retrieve that definition by using the key, a task much harder using an array. That is the basic gist of hashes 
           in Ruby.
         </p>
 
         <p>
-          The purpose of this blog post was to explain the basic difference between arrays and hashes in Ruby. I hope after <br>
-          reading the post, you gained some new knowledge that you can use to further your knowledge of Ruby. The best way to <br>
-          understand these concepts is to practice, so go ahead and open up IRB and play around with arrays and hashes! If you <br>
+          The purpose of this blog post was to explain the basic difference between arrays and hashes in Ruby. I hope after 
+          reading the post, you gained some new knowledge that you can use to further your knowledge of Ruby. The best way to 
+          understand these concepts is to practice, so go ahead and open up IRB and play around with arrays and hashes! If you 
           enjoyed the blog, please keep following. Until next time, happy coding!
         </p>
 
