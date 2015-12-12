@@ -69,33 +69,45 @@
     <section class="column-2">
       <article>
         <h2>AGGREGATE QUERIES</h2>
-        <p>Get the number of all rows</p>
+        <p>Get the total number of all rows:</p>
           <code>SELECT COUNT(*) FROM table_name WHERE condition; </code>
+        
+        <p>Calculate the total sum of certain columns:</p>
+        <code>SELECT col_name, SUM(col_name) <br>
+              FROM table GROUP BY col_name;</code>
+        <p>*<code>GROUP BY</code>: use this to set aggregates to apply to certain only columns.</p>
+
+        <p>Get the max/min of a certain column:</p>
+        <code>SELECT MAX(col_name) FROM table_name;</code> <br>
+        <code>SELECT MIN(col_name) FROM table_name;</code> 
+
+        <p>Get the average for a certain column:</p>
+        <code>SELECT AVG(col_name) FROM table;</code>
         
       </article>
 
       <article>
         <h2>JOINS</h2>
-        <p>Exclude temporary files and paths</p>
+        <p>Get results of a join in a one-to-many relationship:</p>
+        <code>SELECT * FROM table1 <br>
+        JOIN table2 ON table1.col_id = table2.id;</code>
 
-        
-          <code>*.log
-                    build/
-                    temp-*
-          </code>
-          <p>A text file named .gitignore suppresses accidental versioning of files and paths matching the specified paterns</p>
-        
+        <p>Get results of a join, but include NULL:</p>
+        <code>SELECT * FROM table1 <br>
+        LEFT JOIN table2 ON table1.col_id = table2.id;</code>
+      </article>
 
-        
-          <code>$ git ls-files --other --ignored --exclude-standard</code>
-          <p>Lists all ignored files in this project</p>
-        
+      <article>
+        <h2>MISC</h2>
+        <p>Rename a result column:</p>
+        <code>SELECT col AS new_name <br>
+        FROM table_name WHERE condition;</code>
       </article>
 
     </section>
 
     <footer>
-      This information is copied directly from <a href="https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf">GitHub's Training Cheatsheet</a>.
+      For additional info, check out the <a href="http://www.w3schools.com/sql/default.asp">w3schools tutorials.</a>.
     </footer>
   </body>
 </html>
