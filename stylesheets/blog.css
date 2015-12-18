@@ -8,3 +8,8 @@
 	display: block;
 	margin: auto auto;
 }
+
+code {
+	color: green;
+	font-size: 1.2em;
+}
