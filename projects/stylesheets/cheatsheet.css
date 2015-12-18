@@ -1,10 +1,8 @@
-
-
 body {
     width: 960px;
     margin: 0 auto;
     font-family: "Times New Roman", Times, serif;
-    background-color: #A9FF88;
+    background-color: #EFEFD8;
 }
 
 ul {
@@ -39,4 +37,6 @@ footer {
     padding-top: 10px;
 }
 
-
+code {
+    color: blue;
+}
