@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mohammad Amin</title>
+  <link rel="stylesheet" href="../stylesheets/default.css">
+  <link rel="stylesheet" href="../stylesheets/blog.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,500' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class = "nav-links">
+        <li><a class="logo" href="../index.html">Mohammad Amin</a></li>
+        <li><a href="../about.html">About Me</a> |</li> 
+        <li><a href="index.html">Blog</a> |</li>
+        <li><a href="../projects/index.html">Projects</a> |</li>
+        <li><a href="#">Resume</a> |</li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="blog-post">
+      <h1>Ruby Classes</h1>
+      <h3>Objects for your Ruby World</h3>
+      <h5>Nov 27, 2015</h5>
+
+      <div class="blog-text">
+        <h3>Objects in Ruby</h3>
+        <p>
+          You've probably heard somewhere before that everything in Ruby is an object. This is is indeed true. 
+          Anytime you create a variable type in Ruby, it is in fact an object of some class. If you want to see
+          what class an object you're working with belongs to, simply try the <code>#class</code> method. It will
+          return to you the class of the object you called the method on, for example <code>"string".class</code>
+          will return <code>String</code> and <code>5.class</code> will return <code>Fixnum</code>.
+        </p>
+
+        <h3>What is a class?</h3>
+        <p>
+          A Class is pretty much a blueprint for the objects you create in Ruby. It will hold instance variables
+          and instance methods that are unique to that class. You see, when you create and object, you "instantiate"
+          it. In other word, the object you created will be unique, that instance of the class will only hold data
+          that you assign to only that instance. This is where the instance variables come into play, they will
+          hold data unique to that instance of your class, and the instance methods are the methods you can call
+          on those variables. This may sound a little confusing in theory, but it makes a lot of sense. In object 
+          oriented laguages such as Ruby, you can use Classes to emulate real life objects. But, enough of theory, 
+          let's see a class in action.
+        </p>
+
+        <p>
+          <code>
+          <pre>
+          class Fridge 
+            def initialize(food)
+              @food = food 
+            end 
+
+            def change_food(new_food)
+              @food = new_food
+            end
+          end
+          </pre>
+          </code>
+        </p>
+       </div>
+
+    <p>
+      In the above code, I've created a new class called Fridge. It has an initialize method, which runs right when
+      the object is created. In my case, I've decided to initalize my class by setting an instance variable <code>@food</code>,
+      an instance variable is distinguished by the @ sign. So now I can create a new instance of fridge <code>my_fridge = Fridge.new('chicken')</code>. I've assigned a food to the @food instance variable with my initialize method. Now this instance
+      variable will hold the food variable I assigned until I call the instance method #change_food. This can be done like:
+      <code>my_fridge.change_food('potato')</code>, now the instance variable changed its value to 'potato'.
+
+      <h3>Here comes the cool part:</h3>
+
+      I can create a second instance of Fridge, <code>my_other_fridge = Fridge.new('apple')</code>. This new instance will
+      hold its own unique instance variable @food which is now set to 'apple'. This leaves the other Fridge object
+      completely untouched, meaning I can create as much Fridge's as my heart desires, just like in real life where you can
+      have many fridges that have different foods, but the fridges all work the same way!
+     </p>
+      
+      <h3>Go make some Classes!</h3>
+     <p>
+       I really hope this gave you a basic idea of what classes are. Of course the above was a very small example 
+       of what the powers of classes are. If you want to get more used to them, I say you practice by writing some
+       classes and get instantiating! Happy coding!
+     </p>
+
+  </section>
+
+
+<footer>
+    <div class="footer-links">
+        <a href="https://twitter.com/betterxhalf"><img src="../imgs/social/twitter.png" alt="Twitter"></a>
+        <a href="https://www.facebook.com/singmo"><img src="../imgs/social/facebook.png" alt="FaceBook"></a>
+        <a href="https://www.linkedin.com/pub/mohammad-amin/a8/485/813"><img src="../imgs/social/linkedin.png" alt="LinkedIn"></a>
+        <a href="https://github.com/malamin92"><img src="../imgs/social/github.png" alt="Github"></a>
+    </div>
+    <p>©<span class="copyright">2015 Mohammad Amin</span></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="stylesheets/cheatsheet.css">
+    <title>SQL Cheat Sheet</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>SQL Cheat Sheet</h1>
+      <p>SQL (Structured Query Language) is a special-purpose programming language 
+      designed for managing data held in a relational database management system (RDBMS), 
+      or for stream processing in a relational data stream management system (RDSMS).</p>
+    </header>
+
+    <section class="column-1">
+      <article>
+        <h2>OPENING A SQLITE3 DATABASE</h2>
+        <p>Open sqlite3 database in console:</p>
+          <code>sqlite3 database_name.sqlite3 </code>
+      </article>
+
+      <article>
+        <h2>DATABASE CREATION</h2>
+          <p>Create a new database:</p>
+          <code>CREATE TABLE table_name (col1 type, col2 type, etc...);</code>
+        
+          <p>Insert data into tables:</p>
+          <code>INSERT INTO table_name (col1, col2) VALUES (val1, val2); </code>
+
+          <p>Update columns:</p>
+          <code>UPDATE table_name SET col_name = val WHERE condition; </code>
+
+          <p>Alter tables, add or drop columns:</p>
+          <code>ALTER TABLE table_name ADD col_name type;</code>
+          <br>
+          <code>ALTER TABLE table_name DROP COLUMN col_name; </code>
+
+      </article>
+
+      <article>
+        <h2>BASIC QUERIES</h2>
+        <p>Get all columns from a table:</p>
+        <code>SELECT * FROM table_name; </code>
+        
+        <p>Get columns depending on a condition:</p>
+        <code>SELECT * FROM table_name WHERE condition;</code>
+
+        <p>Get columns within a range:</p>
+        <code>SELECT col_name FROM table_name WHERE condition <br>
+              BETWEEN val1 AND/OR val2 ;</code>
+
+        <p>Get columns in a ascending/descending order:</p>
+        <code>SELECT col_name FROM table_name <br>
+        ORDER BY col DESC/ASC; </code>
+
+        <p>Limit results of query:</p>
+        <code>SELECT col_name FROM table_name <br>
+        WHERE condition LIMIT number_to_limit_to;</code>
+        <br> <br>
+        
+      </article>
+
+     
+    </section>
+
+    <section class="column-2">
+      <article>
+        <h2>AGGREGATE QUERIES</h2>
+        <p>Get the total number of all rows:</p>
+          <code>SELECT COUNT(*) FROM table_name WHERE condition; </code>
+        
+        <p>Calculate the total sum of certain columns:</p>
+        <code>SELECT col_name, SUM(col_name) <br>
+              FROM table GROUP BY col_name;</code>
+        <p>*<code>GROUP BY</code>: use this to set aggregates to apply to certain only columns.</p>
+
+        <p>Get the max/min of a certain column:</p>
+        <code>SELECT MAX(col_name) FROM table_name;</code> <br>
+        <code>SELECT MIN(col_name) FROM table_name;</code> 
+
+        <p>Get the average for a certain column:</p>
+        <code>SELECT AVG(col_name) FROM table;</code>
+        
+      </article>
+
+      <article>
+        <h2>JOINS</h2>
+        <p>Get results of a join in a one-to-many relationship:</p>
+        <code>SELECT * FROM table1 <br>
+        JOIN table2 ON table1.col_id = table2.id;</code>
+
+        <p>Get results of a join, but include NULL:</p>
+        <code>SELECT * FROM table1 <br>
+        LEFT JOIN table2 ON table1.col_id = table2.id;</code>
+      </article>
+
+      <article>
+        <h2>MISC</h2>
+        <p>Rename a result column:</p>
+        <code>SELECT col AS new_name <br>
+        FROM table_name WHERE condition;</code>
+      </article>
+
+    </section>
+
+    <footer>
+      For additional info, check out the <a href="http://www.w3schools.com/sql/default.asp">w3schools tutorials.</a>.
+    </footer>
+  </body>
+</html>
