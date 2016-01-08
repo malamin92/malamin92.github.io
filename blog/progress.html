@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mohammad Amin</title>
+  <link rel="stylesheet" href="../stylesheets/default.css">
+  <link rel="stylesheet" href="../stylesheets/blog.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,500' rel='stylesheet' 
+  type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Francois+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+    <nav>
+      <ul class = "nav-links">
+        <li><a class="logo" href="../index.html">Mohammad Amin</a></li>
+        <li><a href="../about.html">About Me</a> |</li> 
+        <li><a href="index.html">Blog</a> |</li>
+        <li><a href="../projects/index.html">Projects</a> |</li>
+        <li><a href="#">Resume</a> |</li>
+        <li><a href="../contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <section class="blog-post">
+      <h1>Ruby on Rails</h1>
+      <h3>Learning Rails</h3>
+      <h5>Jan 7, 2016</h5>
+
+      <div class="blog-text">
+       <h3>The RAILS Framework</h3>
+		<p>
+		Hello and happy new year! I recently got hired as a full time web developer! So naturally, I
+		have been pretty busy for the last couple of weeks. Not with work, I start that in a couple of
+		weeks but just with little things I want to get done before I start. Of course the coding has
+		not stopped and I am glad to be back writing a blog to inform you as to what I have been learning!
+		As you can probable tell from my title, lately I have been fascinated by RAILS, a framework that
+		is built around the Ruby language. I have been practicing and building Ruby programs for a bit so
+		naturally I wanted to progress to Ruby on Rails and utilize it as a website building tool.	
+		</p>	  
+      
+	   <h3>What is Ruby on Rails?</h3>
+        <p>
+		To put in simple terms, Ruby on Rails is basically a tool that is a collection of different aspects
+		of Ruby as well as some unique parts combined together to make building websites more convenient. It
+		is one of many other tools people can use to make website but Rails is certainly one of the more
+		popular tools out there today. Why is it so popular? Well, mostly because it makes building website
+		pretty simple once you get the hang of things. The Ruby on Rails community is a 'convention over 
+		configuration' kind of community. In other words, the Ruby on Rails (I will refer to it as Rails
+		going forward) community has it set of standards and guides to doing things, and it is preferable
+	  	that everyone who is part of the community learns these conventions for the sake of uniformity. So
+		that is exactly what I have been up to for the last month or so. Reading lots of documentation and
+		attending Rails meetups has been pretty fun as it a community of kind people willing to help each
+		other out whenever possible.	
+        </p>
+	   
+		<h4>MVC</h4>		
+    	 <p>
+		 So the driving force behind Rails is MVC, standing for Models, Views and Controllers. These are the
+		 three aspects of a Rails application. You will probably run across these terms in some form or 
+		 another over your development journey, so it is a good idea to understand these terms for the
+		 most part.
+		 </p>
+
+		 <h4>Model</h4>
+
+		 <p>
+		 A model is basically a blueprint for some data model. For example, say you are making a todo list
+		 application, you will need to think of what the list will consist of. We will say the list
+		 is made of different items, and each item will have a completed boolean. We can simply make
+		 an Item model and have it hold text for the item name and a boolean for the completed indication. 
+		 There you have it, you have a blueprint for every item that will be on your to do list, and you
+		 can basically create, read, update or delete each item via the controller which I will explain
+		 next.
+		 </p>
+
+		 <h4>Controller</h4>
+		 <p>
+		 So you've got this model for the items, but how do you manipulate the items themselves? Never fear,
+		 we have these handy controllers in Rails. The basic of controllers are exactly what the name
+		 implies, they control what you do with the models. For example, say you want to add an item
+		 to you list, simple, you just make a create method in your controller and tell it to create
+		 a new Item, pretty cool right? Well, what if you want to delete or modify that item? You guessed
+		 it, implement the delete and update methods in your Items controller, tell it to first find the
+		 item you are looking for and then simply change it to your linking! Magic! (The rails community
+		 is infamous for its 'magic'). There you go, you now know how models and controllers work, not 
+		 so bad, right? Next is the best part, visuals, aka views!
+		 </p>
+
+		 <h4>View</h4>
+		 <p>
+		 So far, you've modeled your items for your to do list and you've learned about controllers to 
+		 manipulate them, but how the heck do you actually see that stuff in the browser? Views! Views
+		 are the visual aspect that the user sees when interacting with your program in the browser. 
+		 Remember those neat controller methods your wrote earlier? Each of those methods have a 
+		 corresponding view with it, that view will be displayed to the browser each time a method
+		 is complete. Amazing! Each view is a html.erb file meaning not only can you design the
+		 HTML parts of the view, but you can also put Ruby in the views so you can push out those
+		 instance variables you just created for you todo list. So that create method we talked about
+		 earlier will probably be a form a user can use in the browser to create items, and then we can
+		 display the to do list by writing an 'index' method that we write in the controller.
+		 </p>
+
+		 <h4>That's the Magic!</h4>
+		 <p>
+		 So there you have it, the brilliant magic of Rails. Now you have high level knowledge of how
+		 Rails works. If you want to learn more about rails and its awesomeness, I suggest you read
+		 through The Rails Tutorial by Michael Hartl. It's a great way to get your feet wet in rails
+		 and get the train rolling. 
+
+		 As always, practice practice practice! Happy coding!
+		 </p>
+
+       </div>
+  </section>
+
+<footer>
+    <div class="footer-links">
+      <a href="https://twitter.com/betterxhalf"><img src="../imgs/social/twitter.png" alt="Twitter"></a>
+      <a href="https://www.facebook.com/singmo"><img src="../imgs/social/facebook.png" alt="FaceBook"></a>
+      <a href="https://www.linkedin.com/pub/mohammad-amin/a8/485/813"><img src="../imgs/social/linkedin.png" 
+			  alt="LinkedIn"></a>
+      <a href="https://github.com/malamin92"><img src="../imgs/social/github.png" alt="Github"></a>
+    </div>
+    <p>©<span class="copyright">2015 Mohammad Amin</span></p>
+  </footer>
+</body>
+</html>
