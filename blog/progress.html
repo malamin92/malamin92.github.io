@@ -36,92 +36,28 @@
 		have been pretty busy for the last couple of weeks. Not with work, I start that in a couple of
 		weeks but just with little things I want to get done before I start. Of course the coding has
 		not stopped and I am glad to be back writing a blog to inform you as to what I have been learning!
-
+		As you can probable tell from my title, lately I have been fascinated by RAILS, a framework that
+		is built around the Ruby language. I have been practicing and building Ruby programs for a bit so
+		naturally I wanted to progress to Ruby on Rails and utilize it as a website building tool.	
 		</p>	  
-       <h3>Ruby Iteration</h3>
-       <p>
-         In Ruby, there are various way you can iterate over data, I will give a couple of common
-         examples. One way it to use a built in Ruby method, there are many but I will demonstrate
-         the each method, which is very common:
-        <code>
-<pre>
-  array = [1,2,3,4,5]
-  array.each do |item|
-    item += 1
-  end
+      
+	   <h3>What is Ruby on Rails?</h3>
+        <p>
+		To put in simple terms, Ruby on Rails is basically a tool that is a collection of different aspects
+		of Ruby as well as some uniqe parts combined together to make building websites more convinent. It
+		is one of many other tools people can use to make website but Rails is certainly one of the more
+		popular tools out there today. Why is it so popular? Well, mostly because it makes building website
+		pretty simple once you get the hang of things. The Ruby on Rails community is a 'convention over 
+		configuration' kind of community. In other words, the Ruby on Rails (I will refer to it as Rails
+		going forward) community has it set of standards and guides to doing things, and it is preferable
+	  	that everyone who is part of the community lerans these conventions for the sake of uniformity. So
+		that is exactly what I have been upto for the last month or so. Reading lots of documentation and
+		attending Rails meetups has been pretty fun as it a community of kind people willing to help each
+		other out whenever possible.	
+        </p>
 
-  result -> [2,3,4,5,6]
-</pre>
-        </code>
-        As you can see, we are going through each element of the array, and adding 1 to it. This
-        is a very simple Ruby method that automates iteration. If we wanted to take a manual approach,
-        Ruby allows for that as well via the while loop:
-
-        <code>
-<pre>
-  array = [1,2,3,4,5]
-  index = 0
-  while index < array.length do
-    array[index] += 1
-    index += 1
-  end
-  
-  result -> [2,3,4,5,6]
-</pre>
-        </code>
-        The code above does the same thing as the previous example, except we are setting where the 
-        index starts and how the iterator changes each time, aka which elements we are accessing 
-        each time. This is great when you want more control over which elements you want to access,
-        for example we could have done <code>index += 2</code> and the while loop would have skipped 
-        every other element.
-       </p>
-
-       <h3>JavaScript Iteration</h3>
-       <p>
-         JavaScript has similar way of iteration as Ruby. I will demonstrate two common methods
-         for JavaScript as well, this first of which is an automated method like the .each in Ruby.
-         In JavaScript we can use .forEach:
-         <code>
-<pre>
- array = [1,2,3,4,5]
- array.forEach(function(entry){
-    entry += 1;
- });
-  
- result -> [2,3,4,5,6]
-</pre>
-         </code>
-          Similar to Ruby, this .forEach method "automagically" iterates through each element of the
-          array and performs the operations in the function passed to it. Also similarly to Ruby, JavaScript
-          has a while loop as well:
-          <code>
-<pre>
-  array = [1,2,3,4,5]
-  index = 0
-  while(index < array.length){
-    array[index] += 1;
-    index++;
-  }
-
-  result -> [2,3,4,5,6]
-</pre>
-          </code>
-          The JavaScript while loop is almost exactly the same as the Ruby while loop as you can
-          see. The <code>index++</code> is just a neat shortcut JavaScript has for adding 1 to anything,
-          just add ++ to the end of any number variable.
-       </p>
-          <h3>Final Remarks</h3>
-          <p>
-            I hope the exmples I've provided helps you understand iteration a little better. I hope you
-            can take away the idea of iteration and also see that both JavaScript and Ruby has similar
-            ways of iterating. In my demonstration of course, I couldn't cover everything so it is left
-            to you to go explore more of the vast options left in iteration in both Ruby and JavaScript.
-            One that I will suggest you look at immediately is the more custom for loop in JavaScript.
-            I also didn't talk about iterating over hashes, because the idea is the same as is with arrays. 
-            So go explore and learn! Happy coding!
-          </p>
-
-      </div>
+     
+       </div>
   </section>
 
 <footer>
