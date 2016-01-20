@@ -6,8 +6,8 @@
 </description>
     <link>http://yourdomain.com/</link>
     <atom:link href="http://yourdomain.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Jan 2016 09:11:26 -0500</pubDate>
-    <lastBuildDate>Wed, 20 Jan 2016 09:11:26 -0500</lastBuildDate>
+    <pubDate>Wed, 20 Jan 2016 09:20:19 -0500</pubDate>
+    <lastBuildDate>Wed, 20 Jan 2016 09:20:19 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -27,7 +27,7 @@
 &lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Wed, 20 Jan 2016 00:35:15 -0500</pubDate>
+        <pubDate>Wed, 20 Jan 2016 09:19:43 -0500</pubDate>
         <link>http://yourdomain.com/jekyll/update/2016/01/20/welcome-to-jekyll.html</link>
         <guid isPermaLink="true">http://yourdomain.com/jekyll/update/2016/01/20/welcome-to-jekyll.html</guid>
         
