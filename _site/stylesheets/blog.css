@@ -1,0 +1,15 @@
+.blog-post {
+	text-align: left;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.example-images img {
+	display: block;
+	margin: auto auto;
+}
+
+code {
+	color: green;
+	font-size: 1.2em;
+}
