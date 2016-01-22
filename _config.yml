@@ -9,7 +9,9 @@
 title: Mohammad Amin
 email: m.alamin92@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  I am a web developer based in New York City, currently working at Techflex Inc.
+  I am a web engineer based in New York City, currently working at Techflex Inc. I love well
+  designed, modular, and scaleable software. I'm always looking to learn new technologies and 
+  take on new challenges. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 twitter_username: betterxhalf
