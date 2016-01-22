@@ -2,12 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mohammad Amin</title>
-    <description>I am a web developer based in New York City, currently working at Techflex Inc.
+    <description>I am a web engineer based in New York City, currently working at Techflex Inc. I love well designed, modular, and scaleable software. I&#39;m always looking to learn new technologies and  take on new challenges. 
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 20 Jan 2016 09:52:16 -0500</pubDate>
-    <lastBuildDate>Wed, 20 Jan 2016 09:52:16 -0500</lastBuildDate>
+    <pubDate>Thu, 21 Jan 2016 22:23:36 -0500</pubDate>
+    <lastBuildDate>Thu, 21 Jan 2016 22:23:36 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
