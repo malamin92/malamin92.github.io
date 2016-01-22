@@ -6,13 +6,17 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Jan 2016 11:08:41 -0500</pubDate>
-    <lastBuildDate>Fri, 22 Jan 2016 11:08:41 -0500</lastBuildDate>
+    <pubDate>Fri, 22 Jan 2016 11:15:19 -0500</pubDate>
+    <lastBuildDate>Fri, 22 Jan 2016 11:15:19 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
         <title>Jekyll</title>
-        <description>
+        <description>&lt;h3 id=&quot;moving-to-jekyll&quot;&gt;Moving to Jekyll&lt;/h3&gt;
+&lt;p&gt;I’ve decided to migrate my blog to Jekyll to try something new and refreshing. I also think it will be better
+to have a more responsive website in the long run. There are some advantages that I saw over using plain
+HTML to write my blog posts as I was doing before, to get more in depth about these advantages I will get
+more into detail about Jekyll in this blog post.&lt;/p&gt;
 </description>
         <pubDate>Fri, 22 Jan 2016 00:00:00 -0500</pubDate>
         <link>/post/2016/01/22/transfering-to-jekyll.html</link>
