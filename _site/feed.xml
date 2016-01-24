@@ -6,8 +6,8 @@
 </description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 22 Jan 2016 11:15:19 -0500</pubDate>
-    <lastBuildDate>Fri, 22 Jan 2016 11:15:19 -0500</lastBuildDate>
+    <pubDate>Sat, 23 Jan 2016 19:59:03 -0500</pubDate>
+    <lastBuildDate>Sat, 23 Jan 2016 19:59:03 -0500</lastBuildDate>
     <generator>Jekyll v3.0.1</generator>
     
       <item>
@@ -19,8 +19,25 @@ HTML to write my blog posts as I was doing before, to get more in depth about th
 more into detail about Jekyll in this blog post.&lt;/p&gt;
 </description>
         <pubDate>Fri, 22 Jan 2016 00:00:00 -0500</pubDate>
-        <link>/post/2016/01/22/transfering-to-jekyll.html</link>
-        <guid isPermaLink="true">/post/2016/01/22/transfering-to-jekyll.html</guid>
+        <link>/post/2016/01/22/transfering-to-jekyll.markdown-2016-01-22-jekyll-and-markdown.html</link>
+        <guid isPermaLink="true">/post/2016/01/22/transfering-to-jekyll.markdown-2016-01-22-jekyll-and-markdown.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Jekyll</title>
+        <description>&lt;h3 id=&quot;moving-to-jekyll&quot;&gt;Moving to Jekyll&lt;/h3&gt;
+&lt;p&gt;I’ve decided to migrate my blog to Jekyll to try something new and refreshing. I also think it will be better
+to have a more responsive website in the long run. There are some advantages that I saw over using plain
+HTML to write my blog posts as I was doing before, to get more in depth about these advantages I will get
+more into detail about Jekyll in this blog post.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 22 Jan 2016 00:00:00 -0500</pubDate>
+        <link>/post/2016/01/22/jekyll-and-markdown.html</link>
+        <guid isPermaLink="true">/post/2016/01/22/jekyll-and-markdown.html</guid>
         
         
         <category>post</category>
