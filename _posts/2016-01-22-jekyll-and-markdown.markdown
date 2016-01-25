@@ -10,4 +10,7 @@ to have a more responsive website in the long run, along with the cool and sleek
 So this site will be under construction for a bit as I migrate my old blogs over to my new Jekyll setup.
 One of the biggest advantages to using Jekyll to write blogs is that is allows one to write blogs using
 markdown. This is way more convineint than having to hardcode things in HTML when writing a blog. In this
-blog I will discuss the cool shortcuts Jekyll provides to do write blogs.   
+blog I will discuss the cool shortcuts Jekyll provides to do write blogs.
+
+### Markdown Basics
+   
