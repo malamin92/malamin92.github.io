@@ -4,15 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Mohammad Amin, most people call me Mo. I earned my BA in Comp Sci from Hunter College, in NYC where I live. Since then, I have been developing websites professionally. My favorite languages are Ruby and JavaScript. On this site, I share thoughts and ideas as I explore various technologies and libraries.  
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+*Develop a passion for learning. If you do, you will never cease to grow. -- Anthony J. D'Angelo*
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+Follow me on [twitter]("https://twitter.com/hackrnaut"), I tweet all the time!
