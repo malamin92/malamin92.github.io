@@ -1,3 +1,6 @@
+---
+layout: post
+---
 # Creating My Site along with my Journey
 
 Hello and welcome to anyone who stumbled across my blog. My name is Mohammad Amin, most people call me Mo. I am a web-developer currently located in NYC, I have a fascination with JavaScript and Ruby.
