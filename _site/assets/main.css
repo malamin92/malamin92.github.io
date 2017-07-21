@@ -13,7 +13,11 @@ dl, dd, ol, ul, figure {
 body, html {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
-  background-color: #6AFF9E;
+  background: #5AFF8E;
+  background: -webkit-linear-gradient(left top, #5AFF8E, #6FBFBA); /* For Safari 4.0 to 5.-1 */
+  background: -o-linear-gradient(bottom right, #5AFF8E, #6FBFBA); /* For Opera 10.0 to 11.-1 */
+  background: -moz-linear-gradient(bottom right, #5AFF8E, #6FBFBA); /* For Firefox 2.5 to 14 */
+  background: linear-gradient(to bottom right, #5AFF8E, #6FBFBA); /* Standard syntax */;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -156,7 +160,7 @@ pre {
  */
 .site-header {
   border-top: 5px solid #424242;
-  border-bottom: 1px solid #CC9541;
+  border-bottom: 1px solid #424242;
   min-height: 55.95px;
   position: relative; }
 
@@ -225,7 +229,7 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #CC9541;
+  border-top: 1px solid #424242;
   padding: 30px 0; }
 
 .footer-heading {
