@@ -14,10 +14,6 @@ body, html {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
   background: #5AFF8E;
-  background: -webkit-linear-gradient(left top, #5AFF8E, #6FBFBA); /* For Safari 4.0 to 5.-1 */
-  background: -o-linear-gradient(bottom right, #5AFF8E, #6FBFBA); /* For Opera 10.0 to 11.-1 */
-  background: -moz-linear-gradient(bottom right, #5AFF8E, #6FBFBA); /* For Firefox 2.5 to 14 */
-  background: linear-gradient(to bottom right, #5AFF8E, #6FBFBA); /* Standard syntax */;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -41,6 +37,10 @@ img {
   max-width: 100%;
   vertical-align: middle; }
 
+p img {
+  display: block;
+  margin: auto;
+}
 /**
  * Figures
  */
@@ -281,7 +281,11 @@ pre {
  * Page content
  */
 .page-content {
-  padding: 30px 0; }
+  padding: 30px 0;
+  background: -webkit-linear-gradient(bottom, #5AFF8E, #6FFFBA); /* For Safari 4.0 to 5.-1 */
+  background: -o-linear-gradient(bottom, #5AFF8E, #6FFFBA); /* For Opera 10.0 to 11.-1 */
+  background: -moz-linear-gradient(bottom, #5AFF8E, #6FFFBA); /* For Firefox 2.5 to 14 */
+  background: linear-gradient(to bottom, #5AFF8E, #6FFFBA); /* Standard syntax */; }
 
 .page-heading {
   font-size: 20px; }
