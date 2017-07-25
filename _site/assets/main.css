@@ -10,10 +10,14 @@ dl, dd, ol, ul, figure {
 /**
  * Basic styling
  */
-body {
+body, html {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
-  background-color: #fdfdfd;
+  background: #5AFF8E;
+  background: -webkit-linear-gradient(left top, #5AFF8E, #6FBFBA); /* For Safari 4.0 to 5.-1 */
+  background: -o-linear-gradient(bottom right, #5AFF8E, #6FBFBA); /* For Opera 10.0 to 11.-1 */
+  background: -moz-linear-gradient(bottom right, #5AFF8E, #6FBFBA); /* For Firefox 2.5 to 14 */
+  background: linear-gradient(to bottom right, #5AFF8E, #6FBFBA); /* Standard syntax */;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -66,10 +70,10 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #2a7ae2;
+  color: #C484FF;
   text-decoration: none; }
   a:visited {
-    color: #1756a9; }
+    color: grey; }
   a:hover {
     color: #111;
     text-decoration: underline; }
@@ -156,7 +160,7 @@ pre {
  */
 .site-header {
   border-top: 5px solid #424242;
-  border-bottom: 1px solid #e8e8e8;
+  border-bottom: 1px solid #424242;
   min-height: 55.95px;
   position: relative; }
 
@@ -225,7 +229,7 @@ pre {
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid #e8e8e8;
+  border-top: 1px solid #424242;
   padding: 30px 0; }
 
 .footer-heading {
@@ -294,7 +298,8 @@ pre {
 
 .post-link {
   display: block;
-  font-size: 24px; }
+  font-size: 24px;
+  color: #C484FF; }
 
 /**
  * Posts
