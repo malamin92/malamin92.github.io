@@ -11,9 +11,9 @@ dl, dd, ol, ul, figure {
  * Basic styling
  */
 body, html {
-  font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 400 16px/1.5 "Ubuntu", Helvetica, Arial, sans-serif;
   color: #111;
-  background: #5AFF8E;
+  background: #CFFFE9;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -70,7 +70,7 @@ h1, h2, h3, h4, h5, h6 {
  * Links
  */
 a {
-  color: #C484FF;
+  color: #B2766D;
   text-decoration: none; }
   a:visited {
     color: grey; }
@@ -229,7 +229,7 @@ pre {
  * Site footer
  */
 .site-footer {
-  background: #6FFFBA;
+  background: #CFFFE8;
   border-top: 1px solid #424242;
   padding: 30px 0; }
 
@@ -283,10 +283,10 @@ pre {
  */
 .page-content {
   padding: 30px 0;
-  background: -webkit-linear-gradient(bottom, #5AFF8E, #6FFFBA); /* For Safari 4.0 to 5.-1 */
-  background: -o-linear-gradient(bottom, #5AFF8E, #6FFFBA); /* For Opera 10.0 to 11.-1 */
-  background: -moz-linear-gradient(bottom, #5AFF8E, #6FFFBA); /* For Firefox 2.5 to 14 */
-  background: linear-gradient(to bottom, #5AFF8E, #6FFFBA); /* Standard syntax */; }
+  background: -webkit-linear-gradient(bottom right, #CFFFE8, #6FFFBA); /* For Safari 4.0 to 5.-1 */
+  background: -o-linear-gradient(bottom right, #CFFFE8, #6FFFBA); /* For Opera 10.0 to 11.-1 */
+  background: -moz-linear-gradient(bottom right, #CFFFE8, #6FFFBA); /* For Firefox 2.5 to 14 */
+  background: linear-gradient(to bottom right, #CFFFE8, #6FFFBA); /* Standard syntax */; }
 
 .page-heading {
   font-size: 20px; }
@@ -304,7 +304,7 @@ pre {
 .post-link {
   display: block;
   font-size: 24px;
-  color: #C484FF; }
+  color: #B2766D; }
 
 /**
  * Posts
