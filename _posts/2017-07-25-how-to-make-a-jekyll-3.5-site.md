@@ -18,7 +18,7 @@ Confirm that you have `Ruby` and `bundler` installed. The next step is to instal
 You can begin writing blog entries for your site by creating a markdown file in the `_posts` folder. The name  of the markdown has to follow a certain format: *year-month-date-title-of-blog*. Go ahead and write as your desire! You can also find information on [markdown format here](https://guides.github.com/features/mastering-markdown/).
 
 ## Getting the Jekyll site on GitHub
-Now let's get your new site up on github. This is pretty standard stuff, just initialize your Jekyll project folder with `git init`. Do your initial `git add` and `git commit -m 'first commit message'`. Go ahead and get the link to the repo you created earlier and do `git remote set origin link-to-repo` . The last step is to push your project folder with `git push origin master` (or a branch if you created one).
+Now let's get your new site up on github. This is pretty standard stuff, just initialize your Jekyll project folder with `git init`. Do your initial `git add` and `git commit -m 'first commit message'`. Go ahead and get the link to the repo you created earlier and do `git remote set-url origin link-to-repo` . The last step is to push your project folder with `git push origin master` (or a branch if you created one).
 
 You did it! Your site should be up in a couple of minutes with the front page showing whatever blog entries you have written so far. Go ahead and give yourself a pat on the back.
 
