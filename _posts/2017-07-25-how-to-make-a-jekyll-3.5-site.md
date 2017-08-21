@@ -25,6 +25,6 @@ You did it! Your site should be up in a couple of minutes with the front page sh
 ## Summary and Additional Resources
 This blog went over the basics of github pages and how to get a [Jekyll](https://jekyllrb.com/) site on there. You can go ahead and customize your site. I found it a little confusing to customize Jekyll 3.5, [check the docs here](https://github.com/jekyll/minima#customization) for some tips. You can find the `minima` theme installed on your computer by using `bundle show minima` command and then navigating to the directory shown. You can customize any file by copying it over to your project folder, but remember to keep the folder structure and file name the same as it is in your `minima` theme structure.
 
-A quick way to customize your site is by looking in your `_config.yml` file that was generate by Jekyll and filling in the information it asks for.
+A quick way to customize your site is by looking in your `_config.yml` file that was generate by Jekyll and filling in the information it asks for. This will help you build your layout and porsonalize your site.
 
 Happy coding!
